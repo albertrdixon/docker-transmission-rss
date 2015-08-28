@@ -1,6 +1,6 @@
 # docker transmission-rss
 
-Use this with a [transmission container](https://github.com/albertrdixon/docker-transmission) to get rss feeds into transmission.
+Use this with a [transmission container](https://github.com/albertrdixon/docker-transmission) to get rss feeds into transmission. Can be run straight away without using your own config, by default it will draw from the yify rss feed.
 
 ```
 $ docker run --detach \
@@ -9,7 +9,7 @@ $ docker run --detach \
     transmission-rss
 ```
 
-In your conf.conf:
+In your conf.conf, make sure you keep these values at least:
 
 ```yaml
 ...

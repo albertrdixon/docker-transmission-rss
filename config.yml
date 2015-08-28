@@ -1,0 +1,8 @@
+feeds:
+  - https://yts.to/rss/0/all/all/0
+update_interval: 600
+server:
+  host: transmission
+  port: 9091
+fork: false
+pid_file: false
